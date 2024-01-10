@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import React from 'react';
 import {
   createBrowserRouter,
   RouteObject,
@@ -8,15 +8,13 @@ import { RouteRoot } from './_root';
 
 import { HouseRoutes } from '../features/houses/routes';
 
-const Auth = lazy(() => import('../layouts/auth/layout_auth'));
-const NotFound = lazy(() => import('../layouts/notfound/layout_notfound'));
-const Error = lazy(() => import('../layouts/error/layout_error'));
+import { LayoutAuth, LayoutError, LayoutNotFound } from './../layouts';
 
 const route = (path: string, element: React.ReactNode): RouteObject => {
   return {
     path: path,
     element: element,
-    errorElement: <Error />,
+    errorElement: <LayoutError />,
   };
 };
 
@@ -24,9 +22,9 @@ const routes = createBrowserRouter(
   [
     {
       element: <RouteRoot />,
-      children: [...HouseRoutes, route('*', <NotFound />)],
+      children: [...HouseRoutes, route('*', <LayoutNotFound />)],
     },
-    route('/', <Auth />),
+    route('/', <LayoutAuth />),
   ],
   {}
 );
