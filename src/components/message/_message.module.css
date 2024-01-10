@@ -1,0 +1,7 @@
+.message-wrapper {
+  @apply w-full text-center h-24 flex justify-center items-center bg-slate-100;
+}
+
+.message-wrapper-label {
+  @apply text-sm text-slate-700;
+}

@@ -1,0 +1,7 @@
+.range-wrapper {
+  @apply flex flex-row items-center gap-2;
+}
+
+.range-label {
+  @apply text-sm text-slate-700;
+}

@@ -1,0 +1,39 @@
+.card-wrapper {
+  @apply w-full border flex flex-col;
+}
+
+.card-thumbnail {
+  @apply pt-full bg-no-repeat bg-cover bg-center bg-slate-200;
+}
+
+.card-content {
+  @apply flex flex-col justify-between flex-1;
+}
+
+.card-content-body {
+  @apply p-2 flex flex-col flex-1 gap-1;
+}
+
+.card-content-body-description {
+  @apply flex-1;
+}
+
+.card-content-body-description-title {
+  @apply text-sm;
+}
+
+.card-content-body-description-location {
+  @apply text-xs text-slate-700 mb-1;
+}
+
+.card-content-body-description-place {
+  @apply text-xs text-slate-500;
+}
+
+.card-content-body-description-price {
+  @apply text-lg;
+}
+
+.card-content-footer {
+  @apply px-2 pb-2;
+}

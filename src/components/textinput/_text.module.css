@@ -1,0 +1,11 @@
+.textinput-wrapper {
+  @apply flex flex-col w-full gap-1;
+}
+
+.textinput-input {
+  @apply w-full h-10 px-2 text-sm rounded-sm;
+}
+
+.textinput-error {
+  @apply text-red-600 text-xs;
+}

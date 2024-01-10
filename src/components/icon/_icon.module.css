@@ -1,0 +1,7 @@
+.icon-light {
+  @apply text-white;
+}
+
+.icon-dark {
+  @apply text-slate-700;
+}

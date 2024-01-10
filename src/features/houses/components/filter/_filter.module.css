@@ -1,0 +1,7 @@
+.filter-wrapper {
+  @apply h-14 flex flex-row justify-between w-full;
+}
+
+.filter-options {
+  @apply flex flex-row gap-4 items-center;
+}

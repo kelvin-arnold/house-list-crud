@@ -1,0 +1,3 @@
+.list-wrapper {
+  @apply flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-y-8 gap-x-4;
+}

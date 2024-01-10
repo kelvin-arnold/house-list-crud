@@ -1,0 +1,15 @@
+.header-wrapper {
+  @apply container;
+}
+
+.header-nav-wrapper {
+  @apply bg-slate-200 w-full py-2;
+}
+
+.header-nav-wrapper-list {
+  @apply flex flex-row;
+}
+
+.header-nav-wrapper-list-item {
+  @apply text-sm font-medium border-r last:border-none border-slate-900 px-4;
+}

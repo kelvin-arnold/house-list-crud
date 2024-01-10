@@ -1,0 +1,11 @@
+.contact-wrapper {
+  @apply w-full bg-slate-200 p-4;
+}
+
+.contact-header {
+  @apply text-center mb-4 text-xl text-slate-800;
+}
+
+.contact-form {
+  @apply flex flex-col gap-4;
+}

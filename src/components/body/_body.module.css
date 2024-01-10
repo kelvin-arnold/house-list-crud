@@ -1,0 +1,3 @@
+.body-wrapper {
+  @apply max-w-screen-2xl w-full xl:w-1536 flex flex-col justify-center items-center;
+}

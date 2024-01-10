@@ -1,0 +1,31 @@
+.dropdown-wrapper {
+  @apply bg-transparent relative;
+}
+
+.dropdown-container {
+  @apply flex flex-row items-center gap-2;
+}
+
+.dropdown-container-label-text {
+  @apply text-slate-700;
+}
+
+.dropdown-container-input {
+  @apply flex flex-row gap-1 items-center border border-slate-300 rounded-sm pl-4 pr-2 cursor-pointer bg-white hover:bg-slate-100;
+}
+
+.dropdown-container-input-label {
+  @apply text-sm text-slate-700;
+}
+
+.dropdown-options {
+  @apply absolute right-0 bottom-0 md:bottom-auto md:top-full bg-white py-2 mt-1;
+}
+
+.dropdown-options-item {
+  @apply px-6 py-1 cursor-pointer w-full last:border-none border-b border-slate-200 hover:bg-slate-200;
+}
+
+.dropdown-options-item-label {
+  @apply text-sm;
+}
